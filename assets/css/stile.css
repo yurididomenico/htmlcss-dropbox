@@ -125,6 +125,7 @@ main h3
   cursor: pointer;
 }
 
+/* ----------------- Carte ----------------- */
 .area-carte
 {
   margin: 3vw 0;
@@ -143,7 +144,6 @@ main h3
 {
   margin: 1vw 0;
 }
-
 .carta-titolo,
 .azienda-titolo
 {
@@ -199,12 +199,7 @@ main h3
  margin-right: 0.3vw;
 }
 
-/* |||||||||| FOOTER |||||||||| */
-
-
-
-/* |||||||||| AREA TEST |||||||||| */
-
+/* ----------------- Azienda ----------------- */
 .area-azienda
 {
   border: 1px solid lightgrey;
@@ -232,6 +227,34 @@ main h3
 {
   margin: 3vw 0 0;
 }
+/* |||||||||| FOOTER |||||||||| */
+
+
+
+/* |||||||||| AREA TEST |||||||||| */
+.area-partner
+{
+  margin: 8vw 0;
+}
+.partner-immagine 
+{
+  flex-basis: 60%;
+}
+.partner-descrizione
+{
+  flex-basis: 40%;
+  padding: 2.5vw;
+}
+.partner-immagine img
+{
+  width: 100%;
+}
+
+.partner-descrizione p
+{
+  margin: 1vw 0 2vw;
+}
+
 /* |||||||||| AREA TEST |||||||||| */
 
 
