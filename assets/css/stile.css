@@ -257,33 +257,19 @@ main h3
 
 /* |||||||||| AREA TEST |||||||||| */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.operazioni-carte .carta
+{
+  margin-bottom: 2.5vw;
+  border: none;
+}
+.operazioni-carte .carta h3
+{
+  margin-bottom: 2vw;
+}
+.carta-img img
+{
+  width: 100%;
+}
 
 
 
