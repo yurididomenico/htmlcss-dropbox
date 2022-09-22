@@ -29,7 +29,10 @@ a
   background-color: #2864fb;
   color: white;
 }
-
+.inline
+{
+  display: inline;
+}
 /* |||||||||| HEADER |||||||||| */
 header
 {
@@ -122,71 +125,12 @@ main h3
 
 
 /* |||||||||| AREA TEST |||||||||| */
-.descrizione-carta
-{
-  padding: 1vw;
-}
+
 .carta
 {
   border: 1px solid lightgrey;
   flex-basis: 30%;
 }
-.utente
-{
-  text-align: center;
-  padding: 0.4vw;
-  border-bottom: 1px solid lightgrey;
-}
-.carta-inizio
-{
-  margin-bottom: 2vw;
-}
-.carta-inizio > *
-{
-  margin: 0.8vw 0;
-}
-.carta-centro > div
-{
-  margin-top: 2vw;
-}
-.carta-centro ul
-{
-  margin-bottom: 2vw;
-}
-.carta-centro > ul > *
-{
-  margin: 1vw 0;
-}
-.linea
-{
-  height: 1px;
-  width: 3vw;
-  background-color: lightgrey;
-  margin: 2vw 0;
-}
-.carta-fine > *
-{
-  display: block;
-  margin: 1vw 0;
-}
-.area-carte
-{
-  margin: 3vw 0;
-}
-.fa-check
-{
-  color: #2864fb;
-}
-.stile-link
-{
-  color: #4c21ed;
-  text-decoration-line: underline;
-}
-.carta-caratteristiche ul
-{
-  margin: 2vw 0;
-}
-
 /* |||||||||| AREA TEST |||||||||| */
 
 
