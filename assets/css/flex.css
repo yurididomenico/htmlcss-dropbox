@@ -51,3 +51,7 @@
 {
   align-content: center;
 }
+.stretch1
+{
+  justify-content: stretch;
+}

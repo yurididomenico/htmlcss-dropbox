@@ -20,17 +20,63 @@ a
 }
 
 /* |||||||||| INIZIO |||||||||| */
-
+.btn
+{
+  padding: 0.5vw;
+}
+.blu
+{
+  background-color: #2864fb;
+  color: white;
+}
 
 /* |||||||||| HEADER |||||||||| */
-
-
-
+header
+{
+  background-color: #b5d0e6;
+  padding: 4vw 0;
+}
+header h1
+{
+  font-size: 5rem;
+  margin-bottom: 3vw;
+}
+.header-left *
+{
+  margin-bottom: 2vw;
+}
+.header-left div
+{
+  margin-top: 2vw;
+}
+.fa-arrow-down
+{
+  font-size: 3rem;
+  margin: 2vw 0 0 0;
+}
+.header-left
+{
+  flex-basis: 30%;
+}
+.header-right
+{
+  flex-basis: 70%;
+}
+.header-right img
+{
+  width: 110%;
+  position: absolute;
+}
+.header-jumbo > div
+{
+  position: relative;
+}
 /* |||||||||| NAV |||||||||| */
 nav
 {
   padding: 1vw;
-  border: 1px solid black;
+  font-size: 1.2rem;
+  background-color: white;
 }
 nav span
 {
@@ -49,6 +95,8 @@ nav img
 
 
 /* |||||||||| AREA TEST |||||||||| */
+
+
 
 
 
