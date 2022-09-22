@@ -99,6 +99,10 @@ main h2
   font-size: 2.5rem;
   margin-bottom: 3vw;
 }
+main h3
+{
+  font-size: 1.4rem;
+}
 .radio
 {
   margin-right: 2vw;
@@ -124,14 +128,34 @@ main h2
 }
 .carta
 {
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   flex-basis: 30%;
 }
 .utente
 {
   text-align: center;
-  padding: 0.2vw;
-  border-bottom: 1px solid grey;
+  padding: 0.4vw;
+  border-bottom: 1px solid lightgrey;
+}
+.carta-inizio
+{
+  margin-bottom: 2vw;
+}
+.carta-inizio > *
+{
+  margin: 0.8vw 0;
+}
+.carta-centro > div
+{
+  margin-top: 2vw;
+}
+.carta-centro ul
+{
+  margin-bottom: 2vw;
+}
+.carta-centro > ul > *
+{
+  margin: 1vw 0;
 }
 .linea
 {
@@ -139,6 +163,11 @@ main h2
   width: 3vw;
   background-color: lightgrey;
   margin: 2vw 0;
+}
+.carta-fine > *
+{
+  display: block;
+  margin: 1vw 0;
 }
 .area-carte
 {
@@ -153,7 +182,10 @@ main h2
   color: #4c21ed;
   text-decoration-line: underline;
 }
-
+.carta-caratteristiche ul
+{
+  margin: 2vw 0;
+}
 
 /* |||||||||| AREA TEST |||||||||| */
 
