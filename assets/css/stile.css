@@ -260,7 +260,7 @@ main h3
 .operazioni-carte .carta
 {
   margin-bottom: 2.5vw;
-  border: none;
+  /* border: none; */
 }
 .operazioni-carte .carta h3
 {
