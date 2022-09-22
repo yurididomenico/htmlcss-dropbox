@@ -227,11 +227,8 @@ main h3
 {
   margin: 3vw 0 0;
 }
-/* |||||||||| FOOTER |||||||||| */
 
-
-
-/* |||||||||| AREA TEST |||||||||| */
+/* ----------------- Partner ----------------- */
 .area-partner
 {
   margin: 8vw 0;
@@ -249,14 +246,16 @@ main h3
 {
   width: 100%;
 }
-
 .partner-descrizione p
 {
   margin: 1vw 0 2vw;
 }
 
-/* |||||||||| AREA TEST |||||||||| */
-
+/* ----------------- Operazioni ----------------- */
+.area-operazioni
+{
+  margin-bottom: 10vw;
+}
 .operazioni-carte .carta
 {
   margin-bottom: 2.5vw;
@@ -270,6 +269,20 @@ main h3
 {
   width: 100%;
 }
+/* |||||||||| FOOTER |||||||||| */
+
+
+
+/* |||||||||| AREA TEST |||||||||| */
+.area-business a
+{
+  text-decoration-line: underline;
+  color: #2815fa;
+}
+
+
+
+/* |||||||||| AREA TEST |||||||||| */
 
 
 
