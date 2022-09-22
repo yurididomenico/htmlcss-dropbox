@@ -49,11 +49,6 @@ header h1
 {
   margin-top: 2vw;
 }
-.fa-arrow-down
-{
-  font-size: 3rem;
-  margin: 2vw 0 0 0;
-}
 .header-left
 {
   flex-basis: 30%;
@@ -71,12 +66,20 @@ header h1
 {
   position: relative;
 }
+.fa-arrow-down
+{
+  font-size: 3rem;
+  margin: 2vw 0 0 0;
+}
 /* |||||||||| NAV |||||||||| */
 nav
 {
   padding: 1vw;
   font-size: 1.2rem;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 nav span
 {
@@ -87,18 +90,69 @@ nav img
   margin-right: 1vw;
 }
 /* |||||||||| MAIN |||||||||| */
-
-
-
+main
+{
+  padding: 8vw 0;
+}
+main h2
+{
+  font-size: 2.5rem;
+  margin-bottom: 3vw;
+}
+.radio
+{
+  margin-right: 2vw;
+  vertical-align: middle;
+}
+.fa-circle-dot
+{
+  color: #2864fb;
+}
+.fa-circle-dot,
+.fa-circle
+{
+  cursor: pointer;
+}
 /* |||||||||| FOOTER |||||||||| */
 
 
 
 /* |||||||||| AREA TEST |||||||||| */
-
-
-
-
+.descrizione-carta
+{
+  padding: 1vw;
+}
+.carta
+{
+  border: 1px solid black;
+  flex-basis: 30%;
+}
+.utente
+{
+  text-align: center;
+  padding: 0.2vw;
+  border-bottom: 1px solid grey;
+}
+.linea
+{
+  height: 1px;
+  width: 3vw;
+  background-color: lightgrey;
+  margin: 2vw 0;
+}
+.area-carte
+{
+  margin: 3vw 0;
+}
+.fa-check
+{
+  color: #2864fb;
+}
+.stile-link
+{
+  color: #4c21ed;
+  text-decoration-line: underline;
+}
 
 
 /* |||||||||| AREA TEST |||||||||| */

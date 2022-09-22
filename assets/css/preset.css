@@ -1,22 +1,27 @@
 /* |||||||||| AREA SET |||||||||| */
 .contenitore80
 {
-  width: 80vw;
+  width: 80%;
   margin: auto;
 }
 .contenitore70
 {
-  width: 70vw;
+  width: 70%;
   margin: auto;
 }
 .contenitore60
 {
-  width: 60vw;
+  width: 60%;
+  margin: auto;
+}
+.contenitore50
+{
+  width: 50%;
   margin: auto;
 }
 .contenitore40
 {
-  width: 40vw;
+  width: 40%;
   margin: auto;
 }
 
