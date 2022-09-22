@@ -124,14 +124,11 @@ main h3
 {
   cursor: pointer;
 }
-/* |||||||||| FOOTER |||||||||| */
 
-
-
-/* |||||||||| AREA TEST |||||||||| */
 .area-carte
 {
-  margin-top: 3vw;
+  margin: 3vw 0;
+
 }
 .carta
 {
@@ -147,7 +144,8 @@ main h3
   margin: 1vw 0;
 }
 
-.carta-titolo
+.carta-titolo,
+.azienda-titolo
 {
   text-align: center;
   padding: 0.5vw;
@@ -155,7 +153,8 @@ main h3
 }
 .carta-tipo,
 .carta-link-acquista,
-.carta-puntisalienti
+.carta-puntisalienti,
+.azienda-body
 {
   padding: 1.5vw;
 }
@@ -198,6 +197,40 @@ main h3
 .carta-puntisalienti > div > i
 {
  margin-right: 0.3vw;
+}
+
+/* |||||||||| FOOTER |||||||||| */
+
+
+
+/* |||||||||| AREA TEST |||||||||| */
+
+.area-azienda
+{
+  border: 1px solid lightgrey;
+}
+.azienda-body > div > *:not(h3),
+.azienda-body > div > *:not(.azienda-body p),
+.azienda-btn
+{
+  margin: 1vw 0;
+}
+.azienda-descrizione
+{
+  flex-basis: 65%;
+}
+.azienda-btn
+{
+  flex-basis: 35%;
+  margin-left: 1vw;
+}
+.azienda-btn a
+{
+  padding: 0.5vw 2vw;
+}
+.azienda-body p
+{
+  margin: 3vw 0 0;
 }
 /* |||||||||| AREA TEST |||||||||| */
 
