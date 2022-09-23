@@ -166,7 +166,13 @@
 {
   font-size: 2rem;
 }
-/* |||||||||| AREA SET |||||||||| */
+
+/* |||||||||| AREA COLORI |||||||||| */
+
+.sfondo-grigio
+{
+  background-color: lightgrey;
+}
 
 
 

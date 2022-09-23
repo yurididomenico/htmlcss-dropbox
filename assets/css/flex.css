@@ -55,3 +55,12 @@
 {
   justify-content: stretch;
 }
+
+.f-basis-3
+{
+  flex-basis: calc(100% / 3);
+}
+.f-basis-2
+{
+  flex-basis: calc(100% / 2);
+}
