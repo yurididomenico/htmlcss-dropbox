@@ -25,9 +25,17 @@
   margin: auto;
 }
 
+.left-text
+{
+  text-align: left;
+}
 .center-text
 {
   text-align: center;
+}
+.right-text
+{
+  text-align: right;
 }
 /* Padding */
 .pad-xs
@@ -173,8 +181,14 @@
 {
   background-color: lightgrey;
 }
-
-
+.sfondo-bianco
+{
+  background-color: white;
+}
+.nero
+{
+  color: black;
+}
 
 
 

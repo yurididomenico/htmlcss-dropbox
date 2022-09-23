@@ -64,3 +64,11 @@
 {
   flex-basis: calc(100% / 2);
 }
+.f-basis-40
+{
+  flex-basis: 40%;
+}
+.f-basis-60
+{
+  flex-basis: 60%;
+}

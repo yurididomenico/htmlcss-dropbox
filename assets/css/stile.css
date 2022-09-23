@@ -100,6 +100,7 @@ nav img
 main
 {
   padding: 8vw 0 0;
+  margin-bottom: 10vw;
 }
 main h2
 {
@@ -298,6 +299,55 @@ main h3
   filter: invert(1);
 }
 
+.area-paper-centro
+{
+  padding: 2.5vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100vw / 3);
+}
+.area-paper-centro > div
+{
+  margin-bottom: 2vw;
+}
+.area-paper-centro img
+{
+  width: 50%;
+}
+.linea
+{
+  height: 1px;
+  width: 5vw;
+  background-color: lightgrey;
+}
+.area-paper-centro > div p
+{
+  margin-bottom: 2vw;
+}
+
+/* ----------------- Prova Gratuita ----------------- */
+.area-provagratuita
+{
+  color: #60052b;
+  background-color: #b5d0e6;
+  padding: 6vw 0;
+  margin-bottom: 8vw;
+}
+.area-provagratuita h2
+{
+  margin: 0;
+}
+.area-provagratuita > div > .f-basis-60
+{
+  padding-right: 8vw;
+}
+
+.area-provagratuita > div > .f-basis-40
+{
+  padding: 1vw 2vw;
+}
+
+
 /* ----------------- Colori ----------------- */
 .verde
 {
@@ -334,39 +384,27 @@ main h3
   background-color: #fdd746;
 }
 
+
+
 /* |||||||||| FOOTER |||||||||| */
 
 
 
 /* |||||||||| AREA TEST |||||||||| */
-
-.area-paper-centro
+.linea-nera
 {
-  padding: 2.5vw;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  height: calc(100vw / 3);
-}
-.area-paper-centro > div
-{
-  margin-bottom: 2vw;
-}
-.area-paper-centro img
-{
-  width: 50%;
-}
-.linea
-{
+  background-color: black;
   height: 1px;
-  width: 5vw;
-  background-color: lightgrey;
+  margin: 2vw 0;
 }
-.area-paper-centro > div p
+.fa-chevron-down
 {
-  margin-bottom: 2vw;
+  padding-right: 2vw;
 }
-
-
+.question
+{
+  font-weight: bold;
+}
 /* |||||||||| AREA TEST |||||||||| */
 
 
