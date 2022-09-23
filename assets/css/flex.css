@@ -57,7 +57,10 @@
 }
 
 
-
+.f-basis-1
+{
+  flex-basis: 100%;
+}
 .f-basis-2
 {
   flex-basis: calc(100% / 2);
@@ -80,3 +83,13 @@
 {
   flex-basis: 60%;
 }
+.f-basis-90
+{
+  flex-basis: 90%;
+}
+
+
+
+
+
+
