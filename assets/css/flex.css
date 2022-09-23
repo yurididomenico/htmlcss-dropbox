@@ -56,14 +56,22 @@
   justify-content: stretch;
 }
 
-.f-basis-3
-{
-  flex-basis: calc(100% / 3);
-}
+
+
 .f-basis-2
 {
   flex-basis: calc(100% / 2);
 }
+.f-basis-3
+{
+  flex-basis: calc(100% / 3);
+}
+.f-basis-5
+{
+  flex-basis: calc(100% / 5);
+}
+
+
 .f-basis-40
 {
   flex-basis: 40%;
