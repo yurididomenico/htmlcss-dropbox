@@ -99,7 +99,7 @@ nav img
 /* |||||||||| MAIN |||||||||| */
 main
 {
-  padding: 8vw 0;
+  padding: 8vw 0 0;
 }
 main h2
 {
@@ -277,20 +277,94 @@ main h3
   color: #2815fa;
 }
 
+/* ----------------- Paper ----------------- */
+.test-grigio
+{
+  background-color: #f5f5f5;
+}
+.area-paper
+{
+  padding: 8vw 0 0 0;
+}
+.quadrato
+{
+  padding: 1vw;
+  aspect-ratio: 1/1;
+  
+}
+.quadrato img
+{
+  width: 50%;
+  filter: invert(1);
+}
+
+/* ----------------- Colori ----------------- */
+.verde
+{
+  background-color: #a2d39e;
+  border: 1vw solid #d1e9cf;
+}
+.rossoscuro
+{
+  background-color: #60052b;
+}
+
+.azzurro
+{
+  background-color: #1c94cc;
+}
+.rosso
+{
+  background-color: #fd0722;
+}
+.tomato
+{
+  background-color: #d30022;
+}
+.celeste
+{
+  background-color: #b5d0e6;
+}
+.bluscuro
+{
+  background-color: #17267f;
+}
+.giallo
+{
+  background-color: #fdd746;
+}
+
 /* |||||||||| FOOTER |||||||||| */
 
 
 
 /* |||||||||| AREA TEST |||||||||| */
-.test-grigio
+
+.area-paper-centro
 {
+  padding: 2.5vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100vw / 3);
+}
+.area-paper-centro > div
+{
+  margin-bottom: 2vw;
+}
+.area-paper-centro img
+{
+  width: 50%;
+}
+.linea
+{
+  height: 1px;
+  width: 5vw;
   background-color: lightgrey;
 }
-.quadrato img
+.area-paper-centro > div p
 {
-  width: 100%;
+  margin-bottom: 2vw;
 }
-
 
 
 /* |||||||||| AREA TEST |||||||||| */
